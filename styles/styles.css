@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 80px; 
+    padding: 0 20px; 
+    background-color: #fff; 
+    border-bottom: 0.3px solid darkgrey;
+}
+  
+header img {
+    max-height: 100%;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333; 
+    padding-bottom: 1.8em;
+}
+
+nav ul li a:hover{ 
+    border-bottom: 4px solid lightblue;
+} 
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-us h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.testimonials {
+    margin-top: 5em;
+}
+
+.testimonial-section {
+    text-align: center;
+}
+
+.testimonial-card {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-card svg{
+    width: 2em;
+}
+
+.testimonial-card img {
+    margin-top: 1em;
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 3em;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.popular-companies {
+    text-align: center;
+}
+
+.popular-companies a {
+    background-color: black;
+}
+
+.popular-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border: 2px solid lightblue;
+}
+
+.popular-card img {
+    width: 10em;
+}
+
+
+.jobs-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.popular-jobs h1{
+    text-align: center;
+}
+
+.popular-jobs a {
+    background-color: black;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border: 2px solid lightblue;
+}
+
+.popular-jobs img {
+    width: 10em;
+}
