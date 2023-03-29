@@ -24,14 +24,14 @@ nav ul{
     gap: 30px;
     list-style: none;
 }
-  
+
 header nav a {
     text-decoration: none;
     color: #333; 
     padding-bottom: 1.8em;
 }
 
-nav ul li a:hover{ 
+header nav ul li a:hover{ 
     border-bottom: 4px solid lightblue;
 } 
 
@@ -100,8 +100,31 @@ main {
     text-align: center;
 }
 
-.popular-jobs a {
-    background-color: black;
+.popular-jobs table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.popular-jobs th, td {
+    text-align: left;
+    padding: 8px;
+}
+.popular-jobs th {
+    background-color: #f2f2f2;
+}
+.job-category {
+    font-weight: bold;
+    color: #336699;
+}
+.job-title {
+    font-weight: bold;
+    color: #000000;
+}
+.job-location {
+    font-style: italic;
+    color: #666666;
+}
+.job-description {
+    color: #333333;
 }
 
 .job-card {
