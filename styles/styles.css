@@ -25,7 +25,7 @@ nav ul{
     list-style: none;
 }
   
-nav a {
+header nav a {
     text-decoration: none;
     color: #333; 
     padding-bottom: 1.8em;
@@ -85,25 +85,9 @@ main {
     margin-bottom: 2em;
 }
 
-.popular-companies {
+.popular-companies h1{
     text-align: center;
 }
-
-.popular-companies a {
-    background-color: black;
-}
-
-.popular-card {
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    border: 2px solid lightblue;
-}
-
-.popular-card img {
-    width: 10em;
-}
-
 
 .jobs-list {
     display: flex;
@@ -129,4 +113,39 @@ main {
 
 .popular-jobs img {
     width: 10em;
+}
+.popular-card-v2{
+    border: 2px solid lightblue;
+    display: flex;
+}
+.popular-card-v2 img{
+    object-fit: contain;
+    width: 6em;
+}
+.card-review h2{
+    margin: 0;
+    padding-bottom: 0.1em;
+}
+
+.nav-card nav ul{
+    margin-top: 0.7em;
+    padding: 0;
+}
+.nav-card nav a {
+    text-decoration: none;
+    color: #333; 
+}
+  
+.nav-card nav ul li a:hover{ 
+    border-bottom: solid lightblue;
+} 
+.card-review p{
+    float: right;
+    margin: 0;
+    color: blue;
+    padding-right: 0.3em;
+}
+.popular-card-v2{
+    padding-top: 0.3em;
+    padding-right: 1.5em;
 }
