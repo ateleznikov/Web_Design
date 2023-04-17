@@ -1,26 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../Web_Design/styles/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../Web_Design/styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../Web_Design/img/11082021-08_generated-removebg-preview.png"
+    />
+    <style>
+      .required {
+        color: red;
+        margin-left: 5px;
+      }
+      
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+
+      form {
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 30px;
+      }
+
+      label {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      li strong {
+        font-weight: bold;
+      }
+
+      li span {
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <img src="../Web_Design/img/11082021-08_generated-removebg-preview.png" alt="Logo">
-        <nav>
-            <ul>
-                <li><a href="../Web_Design/index.html">Find Job</a></li>
-                <li><a href="../Web_Design/find-job.html">Find Job</a></li>
-                <li><a href="../Web_Design/company-reviews.html">Company reviews</a></li>
-                <li><a style="border-bottom: 4px solid lightblue;" href="../Web_Design/contact-us.html">Contact Us</a></li>
-            </ul>
-        </nav>
+      <img
+        src="../Web_Design/img/11082021-08_generated-removebg-preview.png"
+        alt="Logo"
+      />
+      <nav>
+        <ul>
+          <li><a href="../Web_Design/index.html">Find Job</a></li>
+          <li><a href="../Web_Design/find-job.html">Find Job</a></li>
+          <li>
+            <a href="../Web_Design/company-reviews.html">Company reviews</a>
+          </li>
+          <li>
+            <a
+              style="border-bottom: 4px solid lightblue"
+              href="../Web_Design/contact-us.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <section>
+        <h2>Contact Us</h2>
+        <form action="http://foo.com" method="get">
+          <label for="name">Name <span class="required">*</span></label>
+          <input type="text" id="name" name="name" required />
 
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <section class="map">
+        <h2>Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.242729328335!2d-122.162284284218!3d37.446455179821136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcb2d1e0325bf%3A0x159f613fa10159a!2sGoogle%20Plex!5e0!3m2!1sen!2sus!4v1583013034652!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </section>
     </main>
-</body>
+  </body>
 </html>
