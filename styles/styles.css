@@ -173,7 +173,7 @@ main {
     padding-top: 0.3em;
     padding-right: 1.5em;
 }
-.map {
+#map {
     display: flex;
     flex-direction: column;
     align-items: center;
